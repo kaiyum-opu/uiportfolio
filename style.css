@@ -9,7 +9,7 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 .navbar-01, .navbar {
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(picture/banner1.jpg) no-repeat;
-	
+	z-index:1;
 }
 
 .navbar .navbar-brand {
@@ -44,15 +44,40 @@ font-family: 'Roboto Condensed', sans-serif; */
 /* navbar end */
 
 /* about section start */
+.container{
+	height: 100%;
+	
+}
 
 .about-container{
 	margin-top: 3rem;
+	
+}
+.row .about-content h5{
+	font-size: 16px;
+	font-weight: 500;
+	color: #707070;
 }
 
+.row .about-content h1{
+	font-size: 37px;
+	font-weight: 600;
+	color: #404044;
+	margin-bottom: 1rem;
+	
+}
+.row .about-content p{
+	font-size: 20px;
+	font-weight: 400;
+	color: #707070;
+}
 
-
-
-
+.row .list-inline{
+	font-size: 20px;
+	font-weight: 700;
+	color: #404044;
+	
+}
 /* about section end */
 
 
@@ -60,14 +85,58 @@ font-family: 'Roboto Condensed', sans-serif; */
 /* service section start */
 
 
+
+.heading h3{
+	font-size: 40px;
+	color: #404044;
+	padding: 2rem;
+	
+}
+
+
+.content{
+	font-size: 40px;
+	color: #007e6a;
+	
+}
+.row h5{
+	font-size: 22px;
+	color: #007e6a;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+
+}
+.row p{
+	font-size: 18px;
+	color: #707070;
+}
+
 /* service section end */
-
-
 
 
 /* skills section start */
 
+.row h6{
+	font-size: 16px;
+	font-weight: 500;
+	color: #707070;
+}
 
+.row h3{
+	font-size: 38px;
+	font-weight: 500;
+	color: #404044;
+}
+
+.row p{
+	font-size: 18px;
+	font-weight: 400;
+	color: #707070;
+}
+
+.progress{
+	color: #007e6a;
+}
 /* skills section end */
 
 
@@ -75,6 +144,10 @@ font-family: 'Roboto Condensed', sans-serif; */
 
 /* support section start */
 
+.row i{
+	color: #007e6a;
+	font-size: 28px;
+}
 
 /* support section end */
 
@@ -104,14 +177,13 @@ font-family: 'Roboto Condensed', sans-serif; */
 	transition: 1s linear;
 	background: linear-gradient(rgba(175, 155, 208, 0.5), rgba(175, 155, 208, 0.5));
 	cursor: pointer;
-	
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
+	background: linear-gradient(rgba(175, 155, 208, 0.5), rgba(175, 155, 208, 0.5));
 }
 .img-block:hover .img-content{
 	opacity: 1;
-	/* background: linear-gradient(rgba(175, 155, 208, 0.5), rgba(175, 155, 208, 0.5)); */
 }
 /* success section end */
 

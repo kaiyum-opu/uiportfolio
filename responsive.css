@@ -1,0 +1,29 @@
+@media(min-width: 0px) and (max-width: 575px) {
+
+    /* navbar start */
+    .navbar .navbar-brand {
+        font-size: 2.2rem;
+    }
+
+    /* navbar end */
+
+    /* header start */
+    header .btn {
+        --bs-btn-padding-x: 1rem;
+        --bs-btn-padding-y: .5rem;
+        --bs-btn-font-weight: 500;
+    }
+
+    /* header end */
+}
+
+@media(min-width: 576px) and (max-width: 767px) {
+
+    /* header start */
+    header .btn {
+        --bs-btn-padding-x: 1rem;
+        --bs-btn-padding-y: .5rem;
+        --bs-btn-font-weight: 500;
+    }
+
+    /* header end */
