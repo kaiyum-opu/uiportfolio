@@ -1,0 +1,144 @@
+/* commmon code start */
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&display=swap');
+/* font-family: 'Jost', sans-serif;
+font-family: 'Roboto Condensed', sans-serif; */
+
+
+
+/* navbar start */
+
+.navbar-01, .navbar {
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(picture/banner1.jpg) no-repeat;
+	
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.navbar .navbar-nav .nav-link {
+    color: #fff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: 'Jost', sans-serif;
+    margin-left: 12px;
+    margin-right: 12px;
+    padding-left: 0px;
+    padding-right: 0px;
+    transition: .5s linear;
+    position: relative;
+}
+
+.navbar-01 .header-content{
+	color: #fff;
+}
+
+
+
+
+
+/* navbar end */
+
+/* about section start */
+
+.about-container{
+	margin-top: 3rem;
+}
+
+
+
+
+
+/* about section end */
+
+
+
+/* service section start */
+
+
+/* service section end */
+
+
+
+
+/* skills section start */
+
+
+/* skills section end */
+
+
+
+
+/* support section start */
+
+
+/* support section end */
+
+
+
+
+/* number section start */
+
+
+/* number section end */
+
+
+
+
+/* success section start */
+.img-block{
+	position: relative;
+}
+.img-content{
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	width: 100%;
+	height: 100%;
+	color: #000;
+	opacity: 0;
+	transition: 1s linear;
+	background: linear-gradient(rgba(175, 155, 208, 0.5), rgba(175, 155, 208, 0.5));
+	cursor: pointer;
+	
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.img-block:hover .img-content{
+	opacity: 1;
+	/* background: linear-gradient(rgba(175, 155, 208, 0.5), rgba(175, 155, 208, 0.5)); */
+}
+/* success section end */
+
+
+
+/* brand section start */
+.container-fluid .carousel-inner{
+	background: #397F6A;
+
+}
+
+/* brand section start */
+
+/* footer section start */
+.container-fluid .footer{
+	background: #061F25;
+	
+}
+.logo{
+	color: #fff;
+	font-size: 2rem;
+	
+}
+.footer .contact{
+	color: #fff;
+}
+/* footer section end */
+
+
+
